@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*~

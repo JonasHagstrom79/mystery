@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mystery Games</h1>
+    </header>
+    <main>
+        <section id="game-list">
+            <h2>Choose a Mystery Game to Play:</h2>
+            <ul>
+                <li><button onclick="loadGame('game1.js')">Mystery Game 1</button></li>
+                <li><button onclick="loadGame('game2.js')">Mystery Game 2</button></li>
+                <li><button onclick="loadGame('game3.js')">Mystery Game 3</button></li>
+                <li><button onclick="loadGame('game4.js')">Mystery Game 4</button></li>
+                <li><button onclick="loadGame('game5.js')">Mystery Game 5</button></li>
+            </ul>
+        </section>
+        <section id="game-area">
+            <h2>Game will load here...</h2>
+            <!-- Game content will be dynamically loaded here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 Mystery Games</p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="game5.js"></script>
+</body>
+</html>

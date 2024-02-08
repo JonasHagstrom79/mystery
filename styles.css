@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+header, footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+#game-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+#game-list li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Specific Game Styles */
+.game1, .game2, .game3, .game4, .game5 {
+  /* Specific styles for each game can go here if needed */
+}
