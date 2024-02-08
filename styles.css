@@ -10,6 +10,8 @@ body {
 header, footer {
   text-align: center;
   padding: 10px 0;
+  background-color: #004d99;
+  color: #fff;
 }
 
 main {
@@ -21,26 +23,41 @@ main {
   padding: 20px;
 }
 
-#game-list ul {
-  list-style: none;
-  padding: 0;
+.game-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  display: flex;
+  align-items: center;
 }
 
-#game-list li {
-  margin-bottom: 10px;
+.game-item:last-child {
+  border-bottom: none;
+}
+
+.game-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.game-item h3 {
+  
+  color: #007bff;
 }
 
 button {
-  background-color: #007bff;
+  background-color: #28a745;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  float: right;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #218838;
 }
 
 /* Specific Game Styles */

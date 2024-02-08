@@ -13,13 +13,31 @@
     <main>
         <section id="game-list">
             <h2>Choose a Mystery Game to Play:</h2>
-            <ul>
-                <li><button onclick="loadGame('game1.js')">Mystery Game 1</button></li>
-                <li><button onclick="loadGame('game2.js')">Mystery Game 2</button></li>
-                <li><button onclick="loadGame('game3.js')">Mystery Game 3</button></li>
-                <li><button onclick="loadGame('game4.js')">Mystery Game 4</button></li>
-                <li><button onclick="loadGame('game5.js')">Mystery Game 5</button></li>
-            </ul>
+            <div class="game-item">
+                <img src="path/to/mystery1-image.jpg" alt="Mystery 1">
+                <h3 style="color: #007bff;">Mystery 1</h3>
+                <button onclick="loadGame('game1.js')">Play</button>
+            </div>
+            <div class="game-item">
+                <img src="path/to/mystery2-image.jpg" alt="Mystery 2">
+                <h3 style="color: #007bff;">Mystery 2</h3>
+                <button onclick="loadGame('game2.js')">Play</button>
+            </div>
+            <div class="game-item">
+                <img src="path/to/mystery3-image.jpg" alt="Mystery 3">
+                <h3 style="color: #007bff;">Mystery 3</h3>
+                <button onclick="loadGame('game3.js')">Play</button>
+            </div>
+            <div class="game-item">
+                <img src="path/to/mystery4-image.jpg" alt="Mystery 4">
+                <h3 style="color: #007bff;">Mystery 4</h3>
+                <button onclick="loadGame('game4.js')">Play</button>
+            </div>
+            <div class="game-item">
+                <img src="path/to/mystery5-image.jpg" alt="Mystery 5">
+                <h3 style="color: #007bff;">Mystery 5</h3>
+                <button onclick="loadGame('game5.js')">Play</button>
+            </div>
         </section>
         <section id="game-area">
             <h2>Game will load here...</h2>
